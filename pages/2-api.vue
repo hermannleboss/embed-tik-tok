@@ -15,12 +15,11 @@
         <div>
             <div v-if="pending">Loading...</div>
             <div v-if="error">Error : {{ error.message }}</div>
-            <div v-if="data" ove>
+            <div v-if="data">
                 <h3>Embedded script</h3>
                 <div v-html="removeScriptTag(data.html)"></div>
                 <h3>Fetch Data</h3>
-                <div style="overflow: auto;">
-                    
+                <div style="overflow: auto;">                    
                 <pre>{{ data }}</pre>
                 </div>
             </div>
