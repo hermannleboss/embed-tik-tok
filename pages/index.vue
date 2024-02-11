@@ -13,12 +13,12 @@ const pages = [
     path: "/",
   },
   {
-    name: "About",
-    path: "/about",
+    name: "1- Iframe",
+    path: "/1-iframe",
   },
   {
-    name: "Contact",
-    path: "/contact",
+    name: "2- API",
+    path: "/2-api",
   },
 ];
 </script>
